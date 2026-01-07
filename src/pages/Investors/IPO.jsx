@@ -1,61 +1,95 @@
-
-
-
-import { useEffect } from "react";
-import { ChevronRight, Download } from "lucide-react";
+import { useEffect, useState } from "react";
+import { ChevronRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const ipoDocuments = [
-    // { title: "Draft Offer Documents", link: "#draft-offer-documents" },
-    // { title: "Addendum to DRHP", link: "#addendum-to-drhp" },
-    // { title: "Addendum to DRHP-13/06/2024", link: "#addendum-to-drhp-13-06-2024" },
-    // { title: "Addendum to DRHP-30/11/2024", link: "#addendum-to-drhp-30-11-2024" },
-    // { title: "RHP 16/01/2025", link: "#rhp-16-01-2025" },
-    // { title: "Core4 engineers - Prospectus 27/01/2025", link: "#prospectus-27-01-2025" },
-    // { title: "Basis of Allotment", link: "#basis-of-allotment" }
+const industryDocuments = [
+  {
+    title: "Industry Report",
+    filePath: "/pdf/ipo/industry-report.pdf",
+  },
+];
+
+const prospectusDocuments = [
+  {
+    title: "Draft Prospectus",
+    filePath: "/pdf/ipo/draft-prospectus.pdf",
+  },
 ];
 
 export default function IPO() {
-    useEffect(() => {
-        AOS.init({ duration: 1000 });
-    }, []);
+  const [activeTab, setActiveTab] = useState("industry");
 
-    return (
-        <div className="flex flex-col min-h-screen">
-            {/* Header Section */}
-            <div className="bg-blue-700 text-white py-16">
-                <div className="container mx-auto px-6 sm:px-10">
-                    <h1 className="text-2xl sm:text-4xl font-bold mb-4">IPO </h1>
-                    <div className="flex items-center space-x-2 text-sm sm:text-base">
-                        <span>Home</span>
-                        <span>»</span>
-                        <span>IPO</span>
-                    </div>
-                </div>
-            </div>
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
-            {/* Documents Section */}
-            <div className="container mx-auto px-6 sm:px-10 py-8">
-                <h2 className="text-5xl font-semibold text-center text-gray-900 mb-8">
-                    IPO Documents
-                </h2>
-                <div className="flex flex-col items-start space-y-4">
-                    {ipoDocuments.map((document) => (
-                        <a
-                            key={document.title}
-                            href={document.link}
-                            download
-                            className="flex items-center w-full sm:w-auto bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200"
-                            data-aos="fade-up"
-                        >
-                            <ChevronRight size={16} className="mr-2" />
-                            <span className="flex-1 text-sm sm:text-base">{document.title}</span>
-                            <Download size={20} className="ml-2" />
-                        </a>
-                    ))}
-                </div>
-            </div>
+  return (
+    <div className="flex flex-col min-h-screen">
+      {/* Header */}
+      <div className="bg-blue-700 text-white py-16">
+        <div className="container mx-auto px-6 sm:px-10">
+          <h1 className="text-2xl sm:text-5xl font-bold mb-4">IPO</h1>
+          <div className="flex items-center space-x-2 text-3xl sm:text-2xl">
+            <span>Home</span>
+            <span>»</span>
+            <span>IPO</span>
+          </div>
         </div>
-    );
+      </div>
+
+      {/* IPO DOCUMENTS SECTION */}
+      <div className="container mx-auto px-6 sm:px-10 py-8">
+        <h2 className="text-5xl font-semibold text-center text-gray-900 mb-8">
+          IPO Documents
+        </h2>
+
+        {/* TOGGLE BUTTONS */}
+        <div className="flex justify-center gap-6 mb-10">
+          <button
+            onClick={() => setActiveTab("industry")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "industry"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Industry Report
+          </button>
+
+          <button
+            onClick={() => setActiveTab("prospectus")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "prospectus"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Draft Prospectus
+          </button>
+        </div>
+
+        {/* CONTENT BELOW TOGGLE */}
+        <div className="flex flex-col items-start space-y-4">
+          {(activeTab === "industry"
+            ? industryDocuments
+            : prospectusDocuments
+          ).map((doc, index) => (
+            <a
+              key={index}
+              href={doc.filePath}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
+            >
+              <ChevronRight size={16} className="mr-2" />
+              <span className="flex-1 text-xl sm:text-xl">
+                {doc.title}
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }

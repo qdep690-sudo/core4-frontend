@@ -103,13 +103,15 @@ const LatestUpdates = () => {
       .catch((err) => console.error("Error fetching news:", err));
   }, []);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setVisiblePost((prev) => (prev + 1) % newsPosts.length);
-    }, 3500);
+      useEffect(() => {
+      if (newsPosts.length === 0) return;
 
-    return () => clearInterval(interval);
-  }, [newsPosts]);
+      const interval = setInterval(() => {
+        setVisiblePost((prev) => (prev + 1) % newsPosts.length);
+      }, 3500);
+
+      return () => clearInterval(interval);
+    }, [newsPosts.length]);
 
   const onClickUpdates = () => {
     navigate("/investors/latestupdates");
@@ -129,21 +131,22 @@ const LatestUpdates = () => {
         Stay updated with the latest news and announcements.
       </p>
 
-      <ul className="space-y-4 text-sm sm:text-lg md:text-xl lg:text-xl">
-        {newsPosts.map((post, index) => (
-          <motion.li
-            key={post.id}
-            className="flex items-center space-x-2 sm:space-x-3 md:space-x-4 text-white"
-            animate={{ opacity: visiblePost === index ? [0, 1, 0] : 1 }}
-            transition={{ duration: 2.5, ease: "easeInOut" }}
-          >
-            <div className="text-black">
-              <Bell size={24} />
-            </div>
-            <span>{post.title}</span>
-          </motion.li>
-        ))}
-      </ul>
+      <div className="h-12 flex items-center overflow-hidden cursor-pointer">
+        <motion.div
+          key={visiblePost}
+          onClick={onClickUpdates}
+          className="flex items-center space-x-3 text-white text-sm sm:text-5xl md:text-xl lg:text-3xl hover:underline"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5, ease: "easeInOut" }}
+        >
+          <div className="text-black">
+            <Bell size={24} />
+          </div>
+          <span>{newsPosts[visiblePost]?.title}</span>
+        </motion.div>
+      </div>
+
 
       <motion.button
         className="mt-6 px-4 py-2 sm:px-4 sm:py-2 bg-blue-600 text-white rounded-lg hover:bg-gray-800 transition text-sm sm:text-base md:text-lg lg:text-xl"

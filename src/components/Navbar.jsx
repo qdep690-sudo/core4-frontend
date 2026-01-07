@@ -604,6 +604,15 @@ const Navbar = () => {
         </a>
       </li>
 
+      {/* <li>
+        <a
+          href="/gallery"
+          className="px-3 py-2 rounded hover:text-blue-900 hover:border hover:border-blue-900 transition"
+        >
+         Gallery
+        </a>
+      </li> */}
+
         <li>
           <Link
             to="/projects"
