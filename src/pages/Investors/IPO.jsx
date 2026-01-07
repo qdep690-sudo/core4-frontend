@@ -65,7 +65,7 @@ export default function IPO() {
                 : "bg-white text-gray-600"
             }`}
           >
-            Draft Prospectus
+            Draft Red Herring Prospectus (DRHP)
           </button>
         </div>
 
