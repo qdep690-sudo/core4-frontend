@@ -283,61 +283,61 @@ const services = [
     ),
     img: service5,
   },
-  {
-    title: "PMC (Project Management Consultancy)",
-    preview: (<>At CORE4 Engineers Limited, our <b>Project Management Consultancy (PMC)</b> services ensure complete control, clarity, and confidence across every stage of a project—right from concept to commissioning. We deliver structured planning, precise monitoring, and seamless coordination to ensure projects are executed <b>on time, within budget, and with uncompromised quality.</b></>),
-    description: (
-      <>
-        At CORE4 Engineers Limited, our <b>Project Management Consultancy (PMC)</b> services ensure complete control, clarity, and confidence across every stage of a project—right from concept to commissioning. We deliver structured planning, precise monitoring, and seamless coordination to ensure projects are executed <b>on time, within budget, and with uncompromised quality.</b>
-        <br /><br />
-        <strong>Our Expertise</strong>
-        <br />
-        At <b>CORE4 Engineers Limited</b>, we deliver multi-disciplinary engineering solutions with a strong focus on <b>quality, safety, technical precision, and timely execution</b>. Our expertise covers the complete project lifecycle—from planning and design to installation, testing, commissioning, and long-term support.<br /><br />
-        <strong>Our PMC Services Include :</strong>
-        <br />
-        <strong>➣Project Planning & Scheduling:</strong><br />
-         Preparation of detailed project timelines, resource allocation plans, and milestone charts using industry-standard project management tools. Critical Path analysis ensures seamless coordination among all stakeholders.
-        <br />
-        <strong>➣ DPR Preparation & Technical Documentation:</strong><br />
-        Development of Detailed Project Reports (DPR) including feasibility analysis, BOQ preparation, cost estimation, layout drawings, and engineering documentation as per project requirements.
-        <br />
-        <strong>➣ Cost Estimation, Budgeting & Control:</strong><br />
-        Accurate budget planning with continuous cost monitoring to prevent overruns. Includes vendor price evaluation, cost optimization, and financial progress tracking.
-        <br />
-        <strong>➣ Onsite Monitoring & Supervision:</strong>
-        <br />
-        Regular onsite inspections covering quality checks, material verification, work progress validation, and adherence to safety standards. Daily/weekly monitoring ensures timely project execution.        <br />
-        <strong>➣ Vendor & Contractor Coordination:</strong>
-        <br />
-        End-to-end coordination with suppliers, contractors, clients, and consultants for smooth execution. Includes material approvals, design clarifications, and interface management.
-        <br />
-        <strong>➣ MIS Reporting & Progress Tracking:</strong>
-        <br />
-        Preparation of structured MIS reports with photographs, progress charts, bar schedules, inspection logs, and work status updates for client review.
-        <br />
-        <strong>➣ Quality & Safety Assurance:</strong>
-        <br />
-        Implementation of QA/QC procedures, safety guidelines, method statements, and site checklists to ensure compliance with standards and reduce operational risk.
-        <br />
-         <strong>➣  Testing, Commissioning & Handover Support:</strong>
-        <br />
-        Coordination of final testing activities, documentation of as-built drawings, and preparation of handover reports for seamless project completion and client acceptance.        <br /><br />
-        <br />
+  // {
+  //   title: "PMC (Project Management Consultancy)",
+  //   preview: (<>At CORE4 Engineers Limited, our <b>Project Management Consultancy (PMC)</b> services ensure complete control, clarity, and confidence across every stage of a project—right from concept to commissioning. We deliver structured planning, precise monitoring, and seamless coordination to ensure projects are executed <b>on time, within budget, and with uncompromised quality.</b></>),
+  //   description: (
+  //     <>
+  //       At CORE4 Engineers Limited, our <b>Project Management Consultancy (PMC)</b> services ensure complete control, clarity, and confidence across every stage of a project—right from concept to commissioning. We deliver structured planning, precise monitoring, and seamless coordination to ensure projects are executed <b>on time, within budget, and with uncompromised quality.</b>
+  //       <br /><br />
+  //       <strong>Our Expertise</strong>
+  //       <br />
+  //       At <b>CORE4 Engineers Limited</b>, we deliver multi-disciplinary engineering solutions with a strong focus on <b>quality, safety, technical precision, and timely execution</b>. Our expertise covers the complete project lifecycle—from planning and design to installation, testing, commissioning, and long-term support.<br /><br />
+  //       <strong>Our PMC Services Include :</strong>
+  //       <br />
+  //       <strong>➣Project Planning & Scheduling:</strong><br />
+  //        Preparation of detailed project timelines, resource allocation plans, and milestone charts using industry-standard project management tools. Critical Path analysis ensures seamless coordination among all stakeholders.
+  //       <br />
+  //       <strong>➣ DPR Preparation & Technical Documentation:</strong><br />
+  //       Development of Detailed Project Reports (DPR) including feasibility analysis, BOQ preparation, cost estimation, layout drawings, and engineering documentation as per project requirements.
+  //       <br />
+  //       <strong>➣ Cost Estimation, Budgeting & Control:</strong><br />
+  //       Accurate budget planning with continuous cost monitoring to prevent overruns. Includes vendor price evaluation, cost optimization, and financial progress tracking.
+  //       <br />
+  //       <strong>➣ Onsite Monitoring & Supervision:</strong>
+  //       <br />
+  //       Regular onsite inspections covering quality checks, material verification, work progress validation, and adherence to safety standards. Daily/weekly monitoring ensures timely project execution.        <br />
+  //       <strong>➣ Vendor & Contractor Coordination:</strong>
+  //       <br />
+  //       End-to-end coordination with suppliers, contractors, clients, and consultants for smooth execution. Includes material approvals, design clarifications, and interface management.
+  //       <br />
+  //       <strong>➣ MIS Reporting & Progress Tracking:</strong>
+  //       <br />
+  //       Preparation of structured MIS reports with photographs, progress charts, bar schedules, inspection logs, and work status updates for client review.
+  //       <br />
+  //       <strong>➣ Quality & Safety Assurance:</strong>
+  //       <br />
+  //       Implementation of QA/QC procedures, safety guidelines, method statements, and site checklists to ensure compliance with standards and reduce operational risk.
+  //       <br />
+  //        <strong>➣  Testing, Commissioning & Handover Support:</strong>
+  //       <br />
+  //       Coordination of final testing activities, documentation of as-built drawings, and preparation of handover reports for seamless project completion and client acceptance.        <br /><br />
+  //       <br />
 
-        <strong>Why Choose CORE4 ENGINEERS Limited?</strong><br />
-        ➣ End-to-end <b>Project Management Expertise</b> covering <b>planning, engineering coordination, vendor management, execution monitoring, and final commissioning</b>.<br />
-        ➣ <b>Systematic project tracking methods</b> using project schedules, DPR/MIS reporting, risk assessment, and milestone-based progress monitoring.<br />
-        ➣ Strong technical background in <b>electrical, civil, mechanical, and utility-based project supervision</b> to ensure complete compliance and quality.<br />
-        ➣ <b>Transparent coordination</b> with contractors, OEMs, and clients, ensuring <b>smooth communication</b> and <b>timely closure of activities</b>.<br />
-        ➣ Strict <b>adherence to safety standards,</b> QA/QC procedures, statutory norms, and <b>industry best practices</b>.<br />
-        ➣ <b>Cost and time optimization approach</b>, reducing delays and avoiding rework through proactive planning and technical review.<br />
-        ➣ <b>Dedicated on-site and off-site PMC teams</b> for <b>supervision, design vetting, documentation, and handover support</b>.<br /> <br />
+  //       <strong>Why Choose CORE4 ENGINEERS Limited?</strong><br />
+  //       ➣ End-to-end <b>Project Management Expertise</b> covering <b>planning, engineering coordination, vendor management, execution monitoring, and final commissioning</b>.<br />
+  //       ➣ <b>Systematic project tracking methods</b> using project schedules, DPR/MIS reporting, risk assessment, and milestone-based progress monitoring.<br />
+  //       ➣ Strong technical background in <b>electrical, civil, mechanical, and utility-based project supervision</b> to ensure complete compliance and quality.<br />
+  //       ➣ <b>Transparent coordination</b> with contractors, OEMs, and clients, ensuring <b>smooth communication</b> and <b>timely closure of activities</b>.<br />
+  //       ➣ Strict <b>adherence to safety standards,</b> QA/QC procedures, statutory norms, and <b>industry best practices</b>.<br />
+  //       ➣ <b>Cost and time optimization approach</b>, reducing delays and avoiding rework through proactive planning and technical review.<br />
+  //       ➣ <b>Dedicated on-site and off-site PMC teams</b> for <b>supervision, design vetting, documentation, and handover support</b>.<br /> <br />
 
-         At <b>CORE4 ENGINEERS Limited</b>, our PMC services ensure your project is executed with precision, quality, and complete transparency—delivering the results you expect, within the timelines you commit.
-      </>
-    ),
-    img: service6,
-  },
+  //        At <b>CORE4 ENGINEERS Limited</b>, our PMC services ensure your project is executed with precision, quality, and complete transparency—delivering the results you expect, within the timelines you commit.
+  //     </>
+  //   ),
+  //   img: service6,
+  // },
 ];
 
 const ServicePage = () => {
