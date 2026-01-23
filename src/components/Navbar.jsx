@@ -582,7 +582,14 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md p-2 flex justify-between items-center sticky top-0 z-50">
       {/* Logo */}
-      <Link to="/"><img src="/images/logo.jpg" alt="Logo" className="h-14 lg:h-20 w-auto ml-5" /></Link>
+    <Link to="/" className="ms-3">
+      <img
+        src="/images/logo.jpg"
+        alt="Logo"
+        className="img-fluid"
+        style={{ height: "80px", width: "auto" }}
+      />
+    </Link>
 
       {/* Desktop Navbar */}
       <ul className="hidden lg:flex space-x-6 xl:space-x-12 text-lg xl:text-xl items-center whitespace-nowrap">
