@@ -34,7 +34,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/dummy.png"   
+                  src="/images/investors icon/IPO/Vinod.jpeg"   
                   alt="CFO"
                   className="w-full h-full object-cover"
                 />
@@ -57,7 +57,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/dummy.png"  
+                  src="/images/investors icon/IPO/Teja.jpeg"  
                   alt="CS"
                   className="w-full h-full object-cover"
                 />
@@ -92,7 +92,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/dummy.png"  
+                  src="/images/investors icon/IPO/Harsha.jpeg"  
                   alt="CS"
                   className="w-full h-full object-cover"
                 />
@@ -115,7 +115,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/dummy.png"   
+                  src="/images/investors icon/IPO/Nischith.jpeg"   
                   alt="CFO"
                   className="w-full h-full object-cover"
                 />
@@ -138,7 +138,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/dummy.png"  
+                  src="/images/investors icon/IPO/Siddesh.jpeg"  
                   alt="CS"
                   className="w-full h-full object-cover"
                 />

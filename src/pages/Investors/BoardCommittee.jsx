@@ -13,13 +13,13 @@ const BoardCommittee = () => {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
     },
     {
       name: "Agrahara Chamaraje Gowda Abhinandan",
       designation: "Managing Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Abhinandan.png",
     },
   ];
 
@@ -28,7 +28,7 @@ const BoardCommittee = () => {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
       committeeRole: "Chairman",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",
@@ -40,7 +40,7 @@ const BoardCommittee = () => {
       name: "Mahadevappa Tejus",
       designation: "Whole-time Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Tejus.png",
     },
   ];
 
@@ -49,7 +49,7 @@ const BoardCommittee = () => {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
       committeeRole: "Chairman",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",
@@ -61,7 +61,7 @@ const BoardCommittee = () => {
       name: "Anala",
       designation: "Non-Executive Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Anala.png",
     },
   ];
 
@@ -70,13 +70,13 @@ const BoardCommittee = () => {
       name: "Agrahara Chamaraje Gowda Abhinandan",
       designation: "Managing Director",
       committeeRole: "Chairman",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Abhinandan.png",
     },
     {
       name: "Mahadevappa Tejus",
       designation: "Whole-time Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Tejus.png",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",
