@@ -30,7 +30,7 @@ const BoardOfDirectors = () => {
     {
       name: "Mysore Govindaraju Yashwanthkumar",
       designation: "Independent Director",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Yashwanth.jpeg",
     },
   ];
 

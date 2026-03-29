@@ -7,7 +7,7 @@ const BoardCommittee = () => {
       name: "Mysore Govindaraju Yashwanthkumar",
       designation: "Independent Director",
       committeeRole: "Chairman",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Yashwanth.jpeg",
     },
     {
       name: "Kikkeri Putte Gowda Jayaramu",
@@ -34,7 +34,7 @@ const BoardCommittee = () => {
       name: "Mysore Govindaraju Yashwanthkumar",
       designation: "Independent Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Yashwanth.jpeg",
     },
     {
       name: "Mahadevappa Tejus",
@@ -55,7 +55,7 @@ const BoardCommittee = () => {
       name: "Mysore Govindaraju Yashwanthkumar",
       designation: "Independent Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Yashwanth.jpeg",
     },
     {
       name: "Anala",
@@ -82,7 +82,7 @@ const BoardCommittee = () => {
       name: "Mysore Govindaraju Yashwanthkumar",
       designation: "Independent Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/dummy.png",
+      imgSrc: "/images/investors icon/IPO/Yashwanth.jpeg",
     },
   ];
 
