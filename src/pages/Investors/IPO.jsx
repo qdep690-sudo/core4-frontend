@@ -3,19 +3,29 @@ import { ChevronRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const industryDocuments = [
-  {
-    title: "Industry Report",
-    filePath: "/pdf/ipo/industry-report.pdf",
-  },
-];
+// ✅ CENTRALIZED DOCUMENTS (MULTIPLE FILES SUPPORTED)
+const documents = {
+  industry: [
+    {
+      title: "Industry Report",
+      filePath: "/pdf/ipo/industry-report.pdf",
+    },
+  ],
 
-const prospectusDocuments = [
-  {
-    title: "Draft Prospectus",
-    filePath: "/pdf/ipo/draft-prospectus.pdf",
-  },
-];
+  redHerring: [
+    {
+      title: "Draft Red Herring Prospectus (DRHP)",
+      filePath: "/pdf/ipo/drhp.pdf",
+    },
+  ],
+
+  abridged: [
+    {
+      title: "Draft Abridged Prospectus",
+      filePath: "/pdf/ipo/abridged.pdf",
+    },
+  ],
+};
 
 export default function IPO() {
   const [activeTab, setActiveTab] = useState("industry");
@@ -58,23 +68,31 @@ export default function IPO() {
           </button>
 
           <button
-            onClick={() => setActiveTab("prospectus")}
+            onClick={() => setActiveTab("redHerring")}
             className={`px-8 py-3 font-semibold rounded ${
-              activeTab === "prospectus"
+              activeTab === "redHerring"
                 ? "bg-green-700 text-white"
                 : "bg-white text-gray-600"
             }`}
           >
             Draft Red Herring Prospectus (DRHP)
           </button>
+
+          <button
+            onClick={() => setActiveTab("abridged")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "abridged"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Draft Abridged Prospectus
+          </button>
         </div>
 
-        {/* CONTENT BELOW TOGGLE */}
+        {/* DOCUMENT LIST */}
         <div className="flex flex-col items-start space-y-4">
-          {(activeTab === "industry"
-            ? industryDocuments
-            : prospectusDocuments
-          ).map((doc, index) => (
+          {documents[activeTab]?.map((doc, index) => (
             <a
               key={index}
               href={doc.filePath}
