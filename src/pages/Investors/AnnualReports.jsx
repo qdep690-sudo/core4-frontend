@@ -4,14 +4,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const reportDocuments = [
-  // {
-  //   title: "Financial Statement – FY 2022-23",
-  //   filePath: "/pdf/FY_22-23.pdf",
-  // },
-  // {
-  //   title: "Financial Statement – FY 2023-24",
-  //   filePath: "/pdf/FY_23-24.pdf",
-  // },
+  {
+    title: "Annual Report - 2023",
+    filePath: "/pdf/annual-reports/Annual-Report-2023.pdf",
+  },
+  {
+    title: "Annual Report - 2024",
+    filePath: "/pdf/annual-reports/Annual-Report-2024.pdf",
+  },
+  {
+    title: "Annual Report - 2025",
+    filePath: "/pdf/annual-reports/Annual-Report-2025.pdf",
+  },
 ];
 
 export default function Reports() {
@@ -27,7 +31,7 @@ export default function Reports() {
           <h1 className="text-2xl sm:text-5xl font-bold mb-4">
             Annual Reports
           </h1>
-          <div className="flex items-center space-x-2 text-sm sm:text-base">
+          <div className="flex items-center space-x-2 text-lg sm:text-2xl">
             <span>Home</span>
             <span>»</span>
             <span>Annual Reports</span>
@@ -51,7 +55,7 @@ export default function Reports() {
               className="flex items-center gap-2 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
             >
               <ChevronRight size={16} className="mr-2" />
-              <span className="flex-1 text-sm sm:text-base">
+              <span className="flex-1 text-base sm:text-xl ">
                 {doc.title}
               </span>
             </a>

@@ -8,21 +8,21 @@ const documents = {
   industry: [
     {
       title: "Industry Report",
-      filePath: "/pdf/ipo/industry-report.pdf",
+      filePath: "/pdf/ipo/IndustryReport.pdf",
     },
   ],
 
   redHerring: [
     {
       title: "Draft Red Herring Prospectus (DRHP)",
-      filePath: "/pdf/ipo/drhp.pdf",
+      filePath: "/pdf/ipo/DraftRedHerringProspectus.pdf",
     },
   ],
 
   abridged: [
     {
       title: "Draft Abridged Prospectus",
-      filePath: "/pdf/ipo/abridged.pdf",
+      filePath: "/pdf/ipo/Draftabridgedprospectus.pdf",
     },
   ],
 };

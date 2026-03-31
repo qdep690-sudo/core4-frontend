@@ -16,7 +16,7 @@ const Investors = () => {
     { label: "Corporate Policies", path: "/corporate-policies", icon: "/images/investors icon/iv11.png" },
     { label: "Annual Report ", path: "/reports", icon: "/images/investors icon/iv12.png" },
     { label: "IPO", path: "/ipo", icon: "/images/investors icon/iv13.png" },
-    { label: "Annual Returns", path: "/annual-returns", icon: "/images/investors icon/iv14.png" },
+    // { label: "Annual Returns", path: "/annual-returns", icon: "/images/investors icon/iv14.png" },
     { label: "News & Information", path: "/news-information", icon: "/images/investors icon/iv15.png" },
     { label: "Corporate Announcements", path: "/corporate-announcements", icon: "/images/investors icon/iv16.png" },
     { label: "Corporate Information", path: "/corporate-information", icon: "/images/investors icon/iv17.png" },
@@ -24,12 +24,12 @@ const Investors = () => {
     { label: "Material Creditors", path: "/material-creditors", icon: "/images/investors icon/iv19.png" },
     { label: "Material Contracts", path: "/material-contracts", icon: "/images/investors icon/iv20.png" },
     { label: "Material Documents", path: "/material-documents", icon: "/images/investors icon/iv21.png" },
-    { label: "Secretarial Components Report", path: "/secretarial-components-report", icon: "/images/investors icon/iv22.png" },
+    // { label: "Secretarial Components Report", path: "/secretarial-components-report", icon: "/images/investors icon/iv22.png" },
     
   ];
 
   return (
-<div className="min-h-screen flex flex-col items-center bg-gray-50">
+<div className="min-h-screen flex flex-col items-center bg-gray-50 pb-16">
 
   {/* Page Header */}
   <div className="bg-gray-300 py-10 w-full">
@@ -49,7 +49,7 @@ const Investors = () => {
   </h2>
 
   {/* Cards Grid */}
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 w-[80%] mx-auto px-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 w-[80%] mx-auto px-6">
     {items.map((item) => (
       <Link
         key={item.path}
