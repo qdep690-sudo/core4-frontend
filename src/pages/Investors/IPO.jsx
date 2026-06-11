@@ -25,6 +25,12 @@ const documents = {
       filePath: "/pdf/ipo/Draftabridgedprospectus.pdf",
     },
   ],
+  addendum: [
+    {
+      title: "Addendum",
+      filePath: "/pdf/ipo/Addendum.pdf",
+    },
+  ],
 };
 
 export default function IPO() {
@@ -87,6 +93,16 @@ export default function IPO() {
             }`}
           >
             Draft Abridged Prospectus
+          </button>
+          <button
+            onClick={() => setActiveTab("addendum")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "addendum"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Addendum
           </button>
         </div>
 
