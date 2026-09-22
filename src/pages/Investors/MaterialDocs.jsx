@@ -32,6 +32,10 @@ const materialDocs = [
     title: "Consents & Certificates",
     filePath: "/pdf/material-docs/07.Consents&Certificates.pdf",
   },
+  {
+      title: "CSR Payment Details",
+    filePath: "/pdf/material-docs/08.CSRPaymentDetails.pdf",
+  },
 ];
 
 export default function MaterialDocs() {
