@@ -31,6 +31,12 @@ const documents = {
       filePath: "/pdf/ipo/Addendum.pdf",
     },
   ],
+  updatedredHerring: [
+    {
+      title: "Updated Draft Red Herring Prospectus (UDRHP)",
+      filePath: "/pdf/ipo/UpdatedDraftRedHerringProspectus.pdf",
+    },
+  ],
 };
 
 export default function IPO() {
@@ -103,6 +109,16 @@ export default function IPO() {
             }`}
           >
             Addendum
+          </button>
+          <button
+            onClick={() => setActiveTab("updatedredHerring")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "updatedredHerring"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+           Updated Draft Red Herring Prospectus (UDRHP)
           </button>
         </div>
 
