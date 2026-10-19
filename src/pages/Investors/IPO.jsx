@@ -31,10 +31,10 @@ const documents = {
       filePath: "/pdf/ipo/Addendum.pdf",
     },
   ],
-  updatedredHerring: [
+  redHerringProspectus: [
     {
-      title: "Updated Draft Red Herring Prospectus (UDRHP)",
-      filePath: "/pdf/ipo/UpdatedDraftRedHerringProspectus.pdf",
+      title: "Red Herring Prospectus (RHP)",
+      filePath: "/pdf/ipo/RedHerringProspectus.pdf",
     },
   ],
 };
@@ -111,14 +111,14 @@ export default function IPO() {
             Addendum
           </button>
           <button
-            onClick={() => setActiveTab("updatedredHerring")}
+            onClick={() => setActiveTab("redHerringProspectus")}
             className={`px-8 py-3 font-semibold rounded ${
-              activeTab === "updatedredHerring"
+              activeTab === "redHerringProspectus"
                 ? "bg-green-700 text-white"
                 : "bg-white text-gray-600"
             }`}
           >
-           Updated Draft Red Herring Prospectus (UDRHP)
+           Red Herring Prospectus (RHP)
           </button>
         </div>
 
