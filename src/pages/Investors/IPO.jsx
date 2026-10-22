@@ -37,6 +37,24 @@ const documents = {
       filePath: "/pdf/ipo/RedHerringProspectus.pdf",
     },
   ],
+  abridgedProspectusCore4: [
+    {
+      title: "Abridged Prospectus",
+      filePath: "/pdf/ipo/Abridged%20Prospectus_Core4.pdf",
+    },
+  ],
+  basisForIssuePrice: [
+    {
+      title: "Basis for the Issue Price",
+      filePath: "/pdf/ipo/Basis%20for%20the%20Issue%20Price.pdf",
+    },
+  ],
+  priceBandAdvertisement: [
+    {
+      title: "Pre-Issue and Price Band Advertisement",
+      filePath: "/pdf/ipo/Business-Standard-Pre-Issue-and-Price-Band-Advertisement.pdf",
+    },
+  ],
 };
 
 export default function IPO() {
@@ -67,7 +85,7 @@ export default function IPO() {
         </h2>
 
         {/* TOGGLE BUTTONS */}
-        <div className="flex justify-center gap-6 mb-10">
+        <div className="flex flex-wrap justify-center gap-6 mb-10">
           <button
             onClick={() => setActiveTab("industry")}
             className={`px-8 py-3 font-semibold rounded ${
@@ -119,6 +137,36 @@ export default function IPO() {
             }`}
           >
            Red Herring Prospectus (RHP)
+          </button>
+          <button
+            onClick={() => setActiveTab("abridgedProspectusCore4")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "abridgedProspectusCore4"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Abridged Prospectus
+          </button>
+          <button
+            onClick={() => setActiveTab("basisForIssuePrice")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "basisForIssuePrice"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Basis for the Issue Price
+          </button>
+          <button
+            onClick={() => setActiveTab("priceBandAdvertisement")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "priceBandAdvertisement"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Pre-Issue and Price Band Advertisement
           </button>
         </div>
 
