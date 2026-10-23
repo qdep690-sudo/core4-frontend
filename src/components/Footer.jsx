@@ -216,9 +216,9 @@ const Footer = () => {
 
         {/* ================= COPYRIGHT ================= */}
         <p className="text-center text-gray-600 mt-6 text-lg">
-          © 2025 Design by{" "}
+          © 2026 Design by{" "}
           <a
-            href="https://www.linqway.com"
+            href="https://www.linqwaytechniks.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold hover:text-gray-800"
