@@ -21,8 +21,24 @@ const materialDocuments = [
     filePath: "/pdf/material-contracts/RegistrarAgreement.pdf",
   },
   {
-    title: "Site Visit Report_Core4",
-    filePath: "/pdf/material-contracts/SiteVisitReportCore4.pdf",
+    title: "Escrow and Sponsor Bank Agreement",
+    filePath: "/pdf/material-contracts/EscrowAndSponsorBankAgreement.pdf",
+  },
+   {
+    title: "Market Making Agreement Core4",
+    filePath: "/pdf/material-contracts/MarketMakingAgreementCore4.pdf",
+  },
+   {
+    title: "Monitoring Agency Agreement",
+    filePath: "/pdf/material-contracts/MonitoringAgencyAgreement.pdf",
+  },
+   {
+    title: "Syndicate Agreement",
+    filePath: "/pdf/material-contracts/SyndicateAgreement.pdf",
+  },
+  {
+    title: "Underwriting Agreement",
+    filePath: "/pdf/material-contracts/UnderwritingAgreement.pdf",
   },
 ];
 

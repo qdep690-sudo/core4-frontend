@@ -10,7 +10,7 @@ const materialDocs = [
   },
   {
     title: "Public Certificate of Incorporation",
-    filePath: "/pdf/material-docs/02. Public_Certificate of Incorporation.pdf",
+    filePath: "/pdf/material-docs/02.Public_Certificate of Incorporation.pdf",
   },
   {
     title: "Board Resolution IPO_09.10.2025",
@@ -35,6 +35,26 @@ const materialDocs = [
   {
       title: "CSR Payment Details",
     // filePath: "/pdf/material-docs/08.CSRPaymentDetails.pdf",
+  },
+  {
+    title: "Commissioned Industry Report",
+    filePath: "/pdf/material-docs/08.CommissionedIndustryReport.pdf",
+  },
+  {
+    title: "Partnership Deeds",
+    filePath: "/pdf/material-docs/09.PartnershipDeeds.pdf",
+  },
+  {
+    title: "Peer-Reviewed Financial Report",
+    filePath: "/pdf/material-docs/10.Peer-ReviewedFinancialReport.pdf",
+  },
+  {
+    title: "Stock Exchange Clearance",
+    filePath: "/pdf/material-docs/11.StockExchangeClearance.pdf",
+  },
+  {
+    title: "Tax Benefits Statement",
+    filePath: "/pdf/material-docs/12.TaxBenefitsStatement.pdf",
   },
 ];
 
