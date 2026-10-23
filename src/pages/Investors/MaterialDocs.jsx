@@ -10,7 +10,7 @@ const materialDocs = [
   },
   {
     title: "Public Certificate of Incorporation",
-    filePath: "/pdf/material-docs/02.PublicCertificateofIncorporation.pdf",
+    filePath: "/pdf/material-docs/02. Public_Certificate of Incorporation.pdf",
   },
   {
     title: "Board Resolution IPO_09.10.2025",
@@ -34,7 +34,7 @@ const materialDocs = [
   },
   {
       title: "CSR Payment Details",
-    filePath: "/pdf/material-docs/08.CSRPaymentDetails.pdf",
+    // filePath: "/pdf/material-docs/08.CSRPaymentDetails.pdf",
   },
 ];
 
