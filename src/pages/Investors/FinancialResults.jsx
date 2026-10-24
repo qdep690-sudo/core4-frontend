@@ -20,6 +20,14 @@ const reportDocuments = [
     title: "Financial Statement – FY 2024-25 (Standalone)",
     filePath: "/pdf/financial-results/FY-2024-25_Standalone.pdf",
   },
+  {
+    title: "Financial Statement – FY 2025-26 (Consolidated)",
+    filePath: "/pdf/financial-results/FY-2025-26_Consolidated.pdf",
+  },
+  {
+    title: "Financial Statement – FY 2025-26 (Standalone)",
+    filePath: "/pdf/financial-results/FY-2025-26_Standalone.pdf",
+  },
 ];
 
 export default function FinancialResults() {

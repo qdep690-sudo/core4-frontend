@@ -16,6 +16,10 @@ const reportDocuments = [
     title: "Annual Report - 2025",
     filePath: "/pdf/annual-reports/Annual-Report-2025.pdf",
   },
+  {
+    title: "Annual Report - 2026",
+    filePath: "/pdf/annual-reports/Annual-Report-2026.pdf",
+  },
 ];
 
 export default function Reports() {
