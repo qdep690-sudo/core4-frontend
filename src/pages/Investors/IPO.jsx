@@ -31,6 +31,12 @@ const documents = {
       filePath: "/pdf/ipo/Addendum.pdf",
     },
   ],
+  prospectus: [
+    {
+      title: "Core4 Engineers Limited Prospectus",
+      filePath: "/pdf/ipo/Core4%20Engineers%20Limited_Prospectus.pdf",
+    },
+  ],
   redHerringProspectus: [
     {
       title: "Red Herring Prospectus (RHP)",
@@ -127,6 +133,16 @@ export default function IPO() {
             }`}
           >
             Addendum
+          </button>
+          <button
+            onClick={() => setActiveTab("prospectus")}
+            className={`px-8 py-3 font-semibold rounded ${
+              activeTab === "prospectus"
+                ? "bg-green-700 text-white"
+                : "bg-white text-gray-600"
+            }`}
+          >
+            Core4 Engineers Limited Prospectus
           </button>
           <button
             onClick={() => setActiveTab("redHerringProspectus")}
