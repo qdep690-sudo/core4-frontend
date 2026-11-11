@@ -16,7 +16,7 @@ const Investors = () => {
     { label: "Corporate Policies", path: "/corporate-policies", icon: "/images/investors icon/iv11.png" },
     { label: "Annual Report ", path: "/reports", icon: "/images/investors icon/iv12.png" },
     { label: "IPO", path: "/ipo", icon: "/images/investors icon/iv13.png" },
-    // { label: "Annual Returns", path: "/annual-returns", icon: "/images/investors icon/iv14.png" },
+    { label: "Annual Returns", path: "/annual-returns", icon: "/images/investors icon/iv14.png" },
     { label: "News & Information", path: "/news-information", icon: "/images/investors icon/iv15.png" },
     { label: "Corporate Announcements", path: "/corporate-announcements", icon: "/images/investors icon/iv16.png" },
     { label: "Corporate Information", path: "/corporate-information", icon: "/images/investors icon/iv17.png" },
