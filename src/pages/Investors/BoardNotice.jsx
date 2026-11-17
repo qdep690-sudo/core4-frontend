@@ -8,6 +8,10 @@ const boardNotices = [
     title: "Intimation of BM 17.11.2026",
     filePath: "/pdf/board-notice-outcomes/Intimation of BM 17.11.2026.pdf",
   },
+   {
+    title: "Outcome of BM 17.11.2026",
+    filePath: "/pdf/board-notice-outcomes/Outcome of BM 17.11.2026.pdf",
+  },
 ];
 
 export default function BoardNotice() {
