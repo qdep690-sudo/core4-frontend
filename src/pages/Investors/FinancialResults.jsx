@@ -1,9 +1,9 @@
-import { useEffect } from "react";
-import { ChevronRight, Download } from "lucide-react";
+import { useEffect, useState } from "react";
+import { ChevronRight } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const reportDocuments = [
+const annualAuditedFinancials = [
   {
     title: "Financial Statement – FY 2022-23",
     filePath: "/pdf/financial-results/FY-2022-23.pdf",
@@ -30,7 +30,17 @@ const reportDocuments = [
   },
 ];
 
+const halfYearlyFinancials = [];
+
+const tabs = [
+  { key: "annual", label: "Annual Audited Financials", documents: annualAuditedFinancials },
+  { key: "halfYearly", label: "Half-yearly Financials", documents: halfYearlyFinancials },
+];
+
 export default function FinancialResults() {
+  const [activeTab, setActiveTab] = useState("annual");
+  const currentTab = tabs.find((tab) => tab.key === activeTab);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -56,22 +66,46 @@ export default function FinancialResults() {
         <h2 className="text-5xl font-semibold text-center text-gray-900 mb-8">
           Financial Results
         </h2>
-        <div className="flex flex-col items-start space-y-4">
-          {reportDocuments.map((doc, index) => (
-            <a
-              key={index}
-              href={doc.filePath}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
+
+        {/* Sub-tabs */}
+        <div className="flex flex-wrap justify-center gap-6 mb-10">
+          {tabs.map((tab) => (
+            <button
+              key={tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`px-8 py-3 font-semibold rounded ${
+                activeTab === tab.key
+                  ? "bg-green-700 text-white"
+                  : "bg-white text-gray-600"
+              }`}
             >
-              <ChevronRight size={16} className="mr-2" />
-              <span className="flex-1 text-xl sm:text-xl">
-                {doc.title}
-              </span>
-            </a>
+              {tab.label}
+            </button>
           ))}
         </div>
+
+        {currentTab.documents.length > 0 ? (
+          <div className="flex flex-col items-start space-y-4">
+            {currentTab.documents.map((doc, index) => (
+              <a
+                key={index}
+                href={doc.filePath}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 border border-blue-600 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-600 hover:text-white transition"
+              >
+                <ChevronRight size={16} className="mr-2" />
+                <span className="flex-1 text-xl sm:text-xl">
+                  {doc.title}
+                </span>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <p className="text-center text-xl text-gray-500">
+            Documents will be uploaded soon.
+          </p>
+        )}
       </div>
     </div>
   );

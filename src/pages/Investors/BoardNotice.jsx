@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 
 const boardNotices = [
   {
-    title: "Intimation of Board Meeting",
-    filePath: "/pdf/board-notice-outcomes/IntimationofBoardMeeting.pdf",
+    title: "Intimation of BM 17.11.2026",
+    filePath: "/pdf/board-notice-outcomes/Intimation of BM 17.11.2026.pdf",
   },
 ];
 
