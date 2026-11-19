@@ -89,7 +89,7 @@ const BoardCommittee = () => {
         {
       name: "Agrahara Chamaraje Gowda Abhinandan",
       designation: "Managing Director",
-      committeeRole: "Member",
+      committeeRole: "Chairman",
       imgSrc: "/images/investors icon/IPO/Abhinandan.png",
     },
         {
@@ -138,13 +138,13 @@ const BoardCommittee = () => {
         {title}
       </h2>
 
-      <div className="flex flex-wrap justify-center gap-x-14 gap-y-12">
+      <div className="flex flex-wrap justify-center gap-x-10 gap-y-12">
         {members.map((member, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center w-[180px]"
+            className="flex flex-col items-center text-center w-[280px]"
           >
-            <div className="w-28 h-28 md:w-44 md:h-44 rounded-full bg-gray-200 overflow-hidden mb-4">
+            <div className="w-44 h-44 md:w-64 md:h-64 rounded-full bg-gray-200 overflow-hidden mb-4">
               <img
                 src={member.imgSrc}
                 alt={member.name}

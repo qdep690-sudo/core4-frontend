@@ -41,7 +41,7 @@ export default function KMP() {
               </div>
 
               <h2 className="text-2xl font-semibold mb-2">
-                CFO
+                {/* CFO */}
               </h2>
               <p className="text-lg font-medium">
                 Mr. Manjunath B
@@ -64,7 +64,7 @@ export default function KMP() {
               </div>
 
               <h2 className="text-2xl font-semibold mb-2">
-                CS & VP
+                {/* CS & VP */}
               </h2>
               <p className="text-lg font-medium">
                 Mrs. Sowmya Kiran
@@ -155,50 +155,7 @@ export default function KMP() {
               </p>
             </div>
 
-              {/* ===== CTO Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
               
-              {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
-                <img
-                  src="/images/investors icon/IPO/Jayaram.png"  
-                  alt="CS"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <h2 className="text-2xl font-semibold mb-2">
-                
-              </h2>
-              <p className="text-lg font-medium">
-                Mr. Jayaram 
-              </p>
-              <p className="text-gray-600 mt-1">
-                Independent Director 
-              </p>
-            </div>
-            {/* ===== CTO Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
-              
-              {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
-                <img
-                  src="/images/investors icon/IPO/Yashwanth.jpeg"  
-                  alt="CS"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <h2 className="text-2xl font-semibold mb-2">
-                
-              </h2>
-              <p className="text-lg font-medium">
-                Mr. Yashwanth  
-              </p>
-              <p className="text-gray-600 mt-1">
-                Independent Director 
-              </p>
-            </div>
 
           </div>
         </div>
