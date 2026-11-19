@@ -25,7 +25,7 @@ const BoardOfDirectors = () => {
     {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
-      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
+      imgSrc: "/images/investors icon/IPO/Jayaram.png",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",

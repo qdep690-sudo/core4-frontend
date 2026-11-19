@@ -25,14 +25,14 @@ export default function KMP() {
            Key Managerial Personnel (KMP)
         </h2>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
 
 
             {/* ===== CFO Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-8 py-8 text-center w-80 flex flex-col items-center">
               
               {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
                   src="/images/investors icon/IPO/Manjunath.png"   
                   alt="CFO"
@@ -52,10 +52,10 @@ export default function KMP() {
             </div>
 
             {/* ===== CS Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-8 py-8 text-center w-80 flex flex-col items-center">
               
               {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
                   src="/images/investors icon/IPO/Sowmya.jpeg"  
                   alt="CS"
@@ -70,7 +70,7 @@ export default function KMP() {
                 Mrs. Sowmya Kiran
               </p>
               <p className="text-gray-600 mt-1">
-                Company Secretary & Vice President
+                Company Secretary & Vice President - Corporate Services
               </p>
             </div>
 
@@ -84,13 +84,13 @@ export default function KMP() {
            Senior Management Personnel (SMP)
         </h2>
         <div className="flex justify-center">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
 
             {/* ===== CTO Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-8 py-8 text-center w-80 flex flex-col items-center">
               
               {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
                   src="/images/investors icon/IPO/Harsha.png"  
                   alt="CS"
@@ -110,10 +110,10 @@ export default function KMP() {
             </div>
 
             {/* ===== CFO Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-8 py-8 text-center w-80 flex flex-col items-center">
               
               {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
                   src="/images/investors icon/IPO/Nischith.png"   
                   alt="CFO"
@@ -133,10 +133,10 @@ export default function KMP() {
             </div>
 
             {/* ===== CTO Card ===== */}
-            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-8 py-8 text-center w-80 flex flex-col items-center">
               
               {/* Image */}
-              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
                   src="/images/investors icon/IPO/Siddesh.png"  
                   alt="CS"
