@@ -13,7 +13,7 @@ const BoardCommittee = () => {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
       committeeRole: "Member",
-      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
+      imgSrc: "/images/investors icon/IPO/Jayaram.png",
     },
     {
       name: "Agrahara Chamaraje Gowda Abhinandan",
@@ -28,7 +28,7 @@ const BoardCommittee = () => {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
       committeeRole: "Chairman",
-      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
+      imgSrc: "/images/investors icon/IPO/Jayaram.png",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",
@@ -49,7 +49,7 @@ const BoardCommittee = () => {
       name: "Kikkeri Putte Gowda Jayaramu",
       designation: "Independent Director",
       committeeRole: "Chairman",
-      imgSrc: "/images/investors icon/IPO/Jayaramu.jpeg",
+      imgSrc: "/images/investors icon/IPO/Jayaram.png",
     },
     {
       name: "Mysore Govindaraju Yashwanthkumar",
@@ -85,6 +85,27 @@ const BoardCommittee = () => {
       imgSrc: "/images/investors icon/IPO/Yashwanth.jpeg",
     },
   ];
+    const operationalCommittee = [
+        {
+      name: "Agrahara Chamaraje Gowda Abhinandan",
+      designation: "Managing Director",
+      committeeRole: "Member",
+      imgSrc: "/images/investors icon/IPO/Abhinandan.png",
+    },
+        {
+      name: "Mrs. Hosahalli Appagigowda Savitha",
+      designation: "Director",
+      committeeRole: "Member",
+      imgSrc: "/images/investors icon/IPO/Savitha.png",
+    },
+   {
+      name: "Mahadevappa Tejus",
+      designation: "Whole-time Director",
+      committeeRole: "Member",
+      imgSrc: "/images/investors icon/IPO/Tejus.png",
+    },
+
+  ];
 
   const poshCommittee = [
     {
@@ -108,6 +129,8 @@ const BoardCommittee = () => {
       imgSrc: "/images/investors icon/dummy.png",
     },
   ];
+
+
 
   const Section = ({ title, members }) => (
     <div className="space-y-10">
@@ -185,10 +208,15 @@ const BoardCommittee = () => {
             title="Corporate Social Responsibility (CSR) Committee"
             members={csrCommittee}
           />
+           <Section
+            title="Operational Board Committee"
+            members={operationalCommittee}
+          />
           <Section
             title="Prevention Of Sexual Harassment(POSH) Committee"
             members={poshCommittee}
           />
+         
 
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/IPO/Vinod.jpeg"   
+                  src="/images/investors icon/IPO/Manjunath.png"   
                   alt="CFO"
                   className="w-full h-full object-cover"
                 />
@@ -44,7 +44,7 @@ export default function KMP() {
                 CFO
               </h2>
               <p className="text-lg font-medium">
-                Mr. Vinodkumar S
+                Mr. Manjunath B
               </p>
               <p className="text-gray-600 mt-1">
                 Chief Financial Officer
@@ -57,20 +57,20 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/IPO/Teja.jpeg"  
+                  src="/images/investors icon/IPO/Sowmya.jpeg"  
                   alt="CS"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <h2 className="text-2xl font-semibold mb-2">
-                CS
+                CS & VP
               </h2>
               <p className="text-lg font-medium">
-                Ms. Theja R
+                Mrs. Sowmya Kiran
               </p>
               <p className="text-gray-600 mt-1">
-                Company Secretary
+                Company Secretary & Vice President
               </p>
             </div>
 
@@ -92,7 +92,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/IPO/Harsha.jpeg"  
+                  src="/images/investors icon/IPO/Harsha.png"  
                   alt="CS"
                   className="w-full h-full object-cover"
                 />
@@ -102,7 +102,7 @@ export default function KMP() {
                 CTO
               </h2> */}
               <p className="text-lg font-medium">
-                Harsha Kumar C D
+                Mr. Harsha Kumar C D
               </p>
               <p className="text-gray-600 mt-1">
                 Vice President-Gen Works
@@ -115,7 +115,7 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/IPO/Nischith.jpeg"   
+                  src="/images/investors icon/IPO/Nischith.png"   
                   alt="CFO"
                   className="w-full h-full object-cover"
                 />
@@ -125,7 +125,7 @@ export default function KMP() {
                 CFO
               </h2> */}
               <p className="text-lg font-medium">
-                Nischith P
+                Mr. Nischith P
               </p>
               <p className="text-gray-600 mt-1">
                 Vice President-B2C Works 
@@ -138,20 +138,65 @@ export default function KMP() {
               {/* Image */}
               <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
                 <img
-                  src="/images/investors icon/IPO/Siddesh.jpeg"  
+                  src="/images/investors icon/IPO/Siddesh.png"  
                   alt="CS"
                   className="w-full h-full object-cover"
                 />
               </div>
 
               <h2 className="text-2xl font-semibold mb-2">
-                CTO
+                
               </h2>
               <p className="text-lg font-medium">
                 Mr. Siddesh N
               </p>
               <p className="text-gray-600 mt-1">
                 Chief Technical Officer
+              </p>
+            </div>
+
+              {/* ===== CTO Card ===== */}
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+              
+              {/* Image */}
+              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+                <img
+                  src="/images/investors icon/IPO/Jayaram.png"  
+                  alt="CS"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h2 className="text-2xl font-semibold mb-2">
+                
+              </h2>
+              <p className="text-lg font-medium">
+                Mr. Jayaram 
+              </p>
+              <p className="text-gray-600 mt-1">
+                Independent Director 
+              </p>
+            </div>
+            {/* ===== CTO Card ===== */}
+            <div className="bg-white border border-gray-200 rounded-xl shadow-md px-10 py-8 text-center w-72 flex flex-col items-center">
+              
+              {/* Image */}
+              <div className="w-28 h-28 md:w-32 md:h-32 rounded-full bg-gray-200 overflow-hidden mb-4">
+                <img
+                  src="/images/investors icon/IPO/Yashwanth.jpeg"  
+                  alt="CS"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h2 className="text-2xl font-semibold mb-2">
+                
+              </h2>
+              <p className="text-lg font-medium">
+                Mr. Yashwanth  
+              </p>
+              <p className="text-gray-600 mt-1">
+                Independent Director 
               </p>
             </div>
 
