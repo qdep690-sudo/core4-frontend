@@ -209,7 +209,7 @@ const BoardCommittee = () => {
             members={csrCommittee}
           />
            <Section
-            title="Operational Board Committee"
+            title="Operations Committee"
             members={operationalCommittee}
           />
           <Section
